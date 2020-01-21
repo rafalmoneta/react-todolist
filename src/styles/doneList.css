@@ -1,0 +1,17 @@
+.done-list {
+  margin-top: 20px;
+  padding: 0;
+  border-top: 1px solid #DCDCDC;
+}
+
+.done-list:empty::before {
+  display: block;
+  margin: 20px;
+  padding: 10px 0;
+  content: "Do something from your list!";
+}
+
+.done-list .todo .done {
+  color: #fff;
+  background-color: #21AC89;
+}

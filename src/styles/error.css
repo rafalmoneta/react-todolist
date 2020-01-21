@@ -1,0 +1,9 @@
+.error {
+  position: relative;
+  top: 100px;
+  margin: 0 auto;
+  color: red;
+  z-index: 100;
+  font-weight: bold;
+  text-transform: uppercase;
+}
